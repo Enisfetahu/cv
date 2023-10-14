@@ -4,59 +4,188 @@
     <link rel="Document Icon" type="png"
     href="Screenshot_1.png">
     <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(253, 229, 212);
+        }
+        .hero {
+            background-color: rgb(121, 224, 238);
+            border: 2px dotted rgb(146, 57, 57);
+            padding: 10px;
+        }
+        .hero1 {
+            background-color: rgb(152, 238, 204);
+            color: rgb(21, 14, 86);
+            border-top: 10px dashed rgb(255, 183, 183);
+            border-bottom: 10px dashed rgb(255, 183, 183);
+            border-left: 5px ;
+            padding: 50px;
+        }
+        .heroheader {
+            color: rgb(51, 0, 236);
+        }
+        a:hover[href^='#']{
+            background-color: rgb(255, 238, 187);
+        }
+        .hero2 {
+            background-color: rgb(153, 219, 245);
+            border-top: 10px dashed rgb(255, 183, 183);
+            border-bottom: 10px dashed rgb(255, 183, 183);
+            color: rgb(21, 14, 86);
+            padding: 50px;
+        }
+        .hero3 {
+            background-color: rgb(192, 130, 97);
+            border-top: 7px dashed rgb(255, 183, 183);
+            border-bottom: 7px dashed rgb(255, 183, 183);
+            color: rgb(21, 14, 86);
+            padding: 50px;
+        }
+        .hero4 {
+            background-color: rgb(255, 238, 187);
+        }
+        .heroheader1 {
+            color: rgb(51, 0, 236);
+        }
+        .heroheader2 {
+            color: rgb(51, 0, 236);
+        }
+        .heroheader3 {
+            color: rgb(51, 0, 236);
+        }
+        address {
+            color: rgb(123, 17, 58);
+        }
+        q {
+            color: rgb(248, 111, 3);
+        }
+        q i {
+            color: ;
+        }
+        .gallery {
+            box-shadow: 0 5px 12px black;
+            outline: 1px solid var(background-color);
+            overflow: hidden;
+        }
+        .gallery {
+            height: 160px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+        .gallery:hover {
+            cursor: pointer;
+            transform: scale(1.30);
+        }
+        .gallery1 {
+            box-shadow: 0 5px 12px black;
+            outline: 1px solid var(background-color);
+            overflow: hidden;
+        }
+        .gallery1 {
+            height: 160px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+        .gallery1:hover {
+            cursor: pointer;
+            transform: scale(1.30);
+        }
+        .gallery2 {
+            box-shadow: 0 5px 12px black;
+            outline: 1px solid var(background-color);
+            overflow: hidden;
+        }
+        .gallery2 {
+            height: 160px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+        .gallery2:hover {
+            cursor: pointer;
+            transform: scale(1.30);
+        }
+        .gallery3 {
+            box-shadow: 0 5px 12px black;
+            outline: 1px solid var(background-color);
+            overflow: hidden;
+        }
+        .gallery3 {
+            height: 160px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+        .gallery3:hover {
+            cursor: pointer;
+            transform: scale(1.30);
+        }
+        .gallery4 {
+            box-shadow: 0 5px 12px black;
+            outline: 1px solid var(background-color);
+            overflow: hidden;
+        }
+        .gallery4 {
+            height: 160px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+        .gallery4:hover {
+            cursor: pointer;
+            transform: scale(1.70);
+        }
+    </style>
 </head>
 <body>
-    <table border="5" align="center" width="40%" bgcolor="#D2BEB9">
+    <table class="hero"  align="center" width="40%">
         <tr>
-            <td><a href="#home"><i><strong>Home</strong></i></a></td>
+            <td><a href="#home"><i><strong><span>Home</strong></i></a></td>
             <td><a href="#aboutme"><i><strong>About Me</strong></i></a></td>
             <td><a href="#skills"><i><strong>Skills</strong></i></a></td>
             <td><a href="#followme"><i><strong>Follow Me</strong></i></a></td>
         </tr>
     </table>
     <br><br><br><br>
-    <h1 id="home" align="center">Home</h1>
+    <h1 class="heroheader" id="home" align="center">Home</h1>
     <br>
     
-    <table border="0" align="center" width="80%" bgcolor="#C5E7D2">
+    <table class="hero1" border="0" align="center" width="80%" bgcolor="#C5E7D2">
         <tr>
             <th height="100" width=""><h2>Enis Fetahu</h2><address>01.11.2004</address></th>
-            <td><img src="Screenshot_1.png" alt="My photo" width="150"></td>
+            <td><img class="gallery" src="Screenshot_1.png" alt="My photo" width="150"></td>
         </tr>
         <tr>
             <td height="50px"><h3>Programming Student / Beginner</h3></td>
-            <td><img src="working.jpg" alt="Working progress" width="150" height="170"></td>
+            <td><img class="gallery1" src="working.jpg" alt="Working progress" width="150" height="170"></td>
         </tr>
         <tr>
             <td height="50px"><h3>19 Years</h3></td>
-            <td><img src="Programming-Hero_Web_0.jpg" alt="Photo from google" width="150" height="150"></td>
+            <td><img class="gallery2" src="Programming-Hero_Web_0.jpg" alt="Photo from google" width="150" height="150"></td>
         </tr>
         <tr>
             <td height="50px"><h3>Training for full stack web development</h3><address align="left"> at <strong>PerProgramera</strong> digital school</address></td>
-            <td><img src="11-most-popular-programming-languages-2022.webp" alt="Programming languages" width="150" height=""></td>
+            <td><img class="gallery3" src="11-most-popular-programming-languages-2022.webp" alt="Programming languages" width="150" height=""></td>
         </tr>
     </table>
     <br><br><br><br>
-    <h1 id="aboutme" align="center">About Me</h1>
+    <h1 class="heroheader1" id="aboutme" align="center">About Me</h1>
     <br>
 
-    <table border="0" align="center" width="80%" bgcolor="#BFB8D9">
+    <table class="hero2" align="center" width="80%" bgcolor="#BFB8D9">
         <tr>
         <td>
             <p><strong>Hello world, I am <i>Enis Fetahu</i>, I am 19 years old, I am from Presheva, from the Lugina or eastern Kosovo. I completed primary school in my village in "Selami Hallaqi", I finished high school in "Skenderbeu" gymnasium in Presheve.
             Now I am focused on a digital school which is related to programming, and it is called <q><i>PERPROGRAMERA.</i></q>
-            I have a dream where I want to become Full stack web development or something simpler like backend or frontend, I hope to give my greatest success and learn as much as I can from this course</strong><address align="right">08/10/2023</address></p>
+            I have a dream where I want to become Full stack web development or something simpler like backend or frontend, I hope to give my greatest success and learn as much as I can from this course</strong><address align="right" ></p><br><br>
         </td>
         </tr>
         <tr>
-            <td align="center"><img src="working.jpg" alt="" width="200" height="250" ><address align="right">08/10/2023</address></td>
+            <td align="center"><img class="gallery4" src="working.jpg" alt="working"  height="250" ><address align="right">08/10/2023</address></td>
         </tr>
     </table>
     <br><br><br><br>
-    <h1 id="skills" align="center">Skills</h1>
+    <h1 class="heroheader2" id="skills" align="center">Skills</h1>
     <br>
 
-    <table border="0" align="center" width="80%" bgcolor="#D7A69B">
+    <table class="hero3" align="center" width="80%" bgcolor="#D7A69B">
         <tr>
             <td>
                 <p><strong>It's not that I know much about programming, I'm a beginner, but I know some elementary things, since I've liked computers since I was little, and I've been searching the internet for these things, and every day I search as much as I can.
@@ -66,10 +195,10 @@
         </tr>
     </table>
     <br><br><br><br>
-    <h1 id="followme" align="center">Follow Me</h1>
+    <h1 class="heroheader3" id="followme" align="center">Follow Me</h1>
     <br>
     
-    <table border="0" align="center" bgcolor="#ECEEB6">
+    <table class="hero4" align="center" bgcolor="#ECEEB6">
         <tr>
             <td>
                 <form>
